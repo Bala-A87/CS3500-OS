@@ -1,0 +1,9 @@
+1 mkdir
+2 pwd
+3 ls
+4 ls -l
+5 rmdir
+6 ls
+7 history
+8 clear
+9 exit
