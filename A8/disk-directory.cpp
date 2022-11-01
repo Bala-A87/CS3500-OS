@@ -3,6 +3,7 @@
 #include<time.h>
 #include<vector>
 #include<string>
+#include<map>
 
 using namespace std;
 
@@ -44,6 +45,9 @@ typedef struct inode {
 
 int main(int argc, char *argv[]) {
     // Handle cmd line args
+
+    map<string, inode> directory;
+    // Extract from Diskfile if needed
     while(true) {
         string command, filename;
         cin>>command;
