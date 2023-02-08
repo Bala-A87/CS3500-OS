@@ -1,7 +1,0 @@
-REPORT FOR ASSIGNMENT 5 Q 2.2
-
-No, the output is not supposed to change. 
-It will not be exactly the same as without sleep as the threads will be competing to enter the critical section, 
-and random numbers are generated, so both of these induce randomness in the output.
-Ignoring the randomness, the output will be the same as the consumer threads will simply wait for the 5 seconds,
-for the producers to produce the items.
